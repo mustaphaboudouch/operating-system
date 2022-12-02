@@ -157,6 +157,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+husky@^8.0.2:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-8.0.2.tgz#5816a60db02650f1f22c8b69b928fd6bcd77a236"
+  integrity sha512-Tkv80jtvbnkK3mYWxPZePGFpQ/tT3HNSs/sasF9P2YfkMezDl3ON37YN6jUUI4eTg5LcyVynlb6r4eyvOmspvg==
+
 is-core-module@^2.9.0:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.11.0.tgz#ad4cb3e3863e814523c96f3f58d26cc570ff0144"
