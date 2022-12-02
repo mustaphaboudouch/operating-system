@@ -36,10 +36,11 @@ If you want to run the project on your own, please follow these steps :
 <pre>
 operating-system
 ├── index.html
-├── js
-│   └── main.js
-├── css
-│   └── main.css
+├── src
+│   ├── js
+│   │   └── main.js
+│   └── css
+│       └── main.css
 └── public
 </pre>
 
