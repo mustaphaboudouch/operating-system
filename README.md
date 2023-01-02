@@ -25,10 +25,10 @@
 
 If you want to run the project on your own, please follow these steps :
 
-1. Clone the Project (`git clone git@github.com:mustaphaboudouch/operating-system.git`)
+1. Clone the Project : `git clone git@github.com:mustaphaboudouch/operating-system.git`
 2. Move to the project folder
-3. Install dependencies (`yarn`)
-4. Run server (`yarn dev`)
+3. Install dependencies : `yarn`
+4. Run server : `yarn dev`
 5. Let's go : <a href="http://127.0.0.1:5173/">http://127.0.0.1:5173</a>
 
 ## Files Structure
