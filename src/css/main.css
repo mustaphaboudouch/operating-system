@@ -12,7 +12,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
-  grid-template-columns: repeat(18, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 20px;
   padding: 20px;
 }
@@ -34,9 +34,9 @@
 }
 
 .search {
+  display: none;
   position: relative;
   height: 100%;
-  display: flex;
   align-items: center;
 }
 .search svg {
@@ -51,4 +51,44 @@
   font-size: 0.9rem;
   color: #ffffff;
   background-color: #414141;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .screen {
+    grid-template-columns: repeat(10, 1fr);
+  }
+
+  .search {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .screen {
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .search {
+    display: flex;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .screen {
+    grid-template-columns: repeat(16, 1fr);
+  }
+
+  .search {
+    display: flex;
+  }
+}
+
+@media (min-width: 1200px) {
+  .screen {
+    grid-template-columns: repeat(18, 1fr);
+  }
+
+  .search {
+    display: flex;
+  }
 }
